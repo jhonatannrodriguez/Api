@@ -1,0 +1,19 @@
+body{
+    background-image: url(neon-world-map-wallpaper-1152x768_36.jpg);
+    color: beige;
+}
+
+h1{
+    text-align: center;
+    font-size: 55px;
+}
+
+h5{
+    color: black;
+    text-align: center;
+    font-size: 25px;
+}
+
+#container{
+    margin-left: 150px;
+}

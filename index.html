@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Diccionario Api</title>
+    <link rel="stylesheet" href="bootstrap.min.css" />
+    <link rel="stylesheet" href="style.css">
+  </head>
+  <body>
+    <div>
+      <h1>Países del Mundo</h1>
+      <h5>Busque un País:</h5>
+      <div class="input-group mb-1">
+        <div class="col-3">
+          <input
+            type="text"
+            class="form-control"
+            placeholder="Ej: Uruguay"
+            aria-label="Recipient's username"
+            aria-describedby="button-addon2"
+            id="palabra"
+          />
+        </div>
+        <div class="input-group-append">
+          <button
+            class="btn btn-outline-secondary"
+            type="button"
+            id="button-addon2"
+          >
+            Buscar
+          </button>
+        </div>
+        <div id="container"></div>
+      </div>
+    </div>
+    <script src="script.js"></script>
+  </body>
+</html>
